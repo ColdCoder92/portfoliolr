@@ -1,0 +1,60 @@
+{
+    "list": [
+        {
+            "name": "The Darkness Story",
+            "toolkit": ["HTML", "CSS"],
+            "icon": "darknessStoryCover.png",
+            "description": "A short article created with CSS animations exploring and researching the concept of the dark.",
+            "url": "https://www.github.com/ColdCoder92/book-of-elements"
+        },
+        {
+            "name": "Algebra Solver",
+            "toolkit": ["Java"],
+            "icon": "equationSolverPreview.png",
+            "description": "A JavaFX applet used for solved algebraic applications. This applet is still in development.",
+            "url": "https://www.github.com/ColdCoder92/algebra-solver"
+        },
+        {
+            "name": "Capture The Flags",
+            "toolkit": ["Python", "Godot", "CSharp", "Unity"],
+            "icon": "flagOnHill.png",
+            "description": "A simple flag minigame made with Godot and Unity. The game contains simple game mechanics with GUI and audio.",
+            "url": "https://www.github.com/ColdCoder92/capture-the-flags-3d"
+        },
+        {
+            "name": "The StartUp Life, LLC",
+            "toolkit": ["HTML", "CSS", "JavaScript"],
+            "icon": "startuplifeLogo.png",
+            "description": "The StartUp Life website was aimed to give people information about what our company is about and how we can assist them. For example, users could access our consultation page for inquiries. This is useful for achieving the company objective of jumpstarting small businesses and startups.",
+            "url": "https://www.github.com/TheStartupLife/thestartuplife-052020"
+        },
+        {
+            "name": "Cart's Icecream Shop",
+            "toolkit": ["CSharp", "ASP.NETCore", "MSSQLServer", "XUnit"],
+            "icon": "IceCreamLogo.png",
+            "description": "Cart's icecream Shop is a .NET Core app where customers can order personalized cones or bowls of icecream. Designed for icecream parlors, this app helps uncover consumer trends to drive business planning and sales efficiency. After customers order their customized icecream, cashiers create transactions based on the icecream, save orders, and start purchases with the customers. This minimal API is also tested thoroughly using XUnit while securely stored in a MSSQL Server database for enhanced privacy.",
+            "url": "https://www.github.com/250407-NET-FS/icecream-shop"
+        },
+        {
+            "name": "JAZA",
+            "toolkit": ["CSharp", "ASP.NETCore", "MSSQLServer", "XUnit"],
+            "icon": "JAZA.png",
+            "description": "JAZA is a .NET Core web app where users can interact with or list their properties through purchases. Inspired by the Zillow application, people can see details about properties and make offers to buy them. The web API was tested thoroughly using XUnit while the frontend underwent UI testing in Razor Pages. The data is stored securely in a MSSQL Server database and manipulated with EntityFramework Core through interconnected business layers.",
+            "url": "https://www.github.com/250407-NET-FS/JAZA"
+        },
+        {
+            "name": "JAZA (React version)",
+            "toolkit": ["CSharp", "ASP.NETCore", "MSSQLServer", "XUnit", "JavaScript", "React", "JEST", "MS Azure", "Docker"],
+            "icon": "JAZA.png",
+            "description": "An extension to the previous real-estate marketplace project, JAZA. This version utilizes a React frontend and MS Azure host for the database. Additional funcitonalities such as featured listings, a search bar, and a more uniform UI were also implemented. Further testing of the application is also done with JavaScript's JEST framework for frontend coverage.",
+            "url": "https://www.github.com/250407-NET-FS/JAZA-React"
+        },
+        {
+            "name": "Preplit",
+            "toolkit": ["CSharp", "ASP.NETCore", "MSSQLServer", "XUnit", "TypeScript", "React", "JEST", "MS Azure", "Docker"],
+            "icon": "preplitLogo.png",
+            "description": "Preplit is a .NET Core web app where users can create and organize flashcards in a visual directory. Inspired by Quizlet, the app meets to satisfy user preference for studying with flashcards. the web API was tested thoroughly with XUnit while the frontend used the JEST framework. The data is stored securely in a MSSQl Server database hosted by MS Azure.",
+            "url": "https://www.github.com/250407-NET-FS/preplit"
+        }
+    ]
+}
