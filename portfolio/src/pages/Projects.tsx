@@ -1,12 +1,33 @@
-import React from 'react'
+import React, { type ReactNode } from 'react'
+import projects from '../../projects.json'
 import NavBar from './shared/NavBar'
 import { Container, Grid } from '@mui/material'
 
 function Projects() {
+  let section: ReactNode[] = projects.list.map((project: any) => {
+    return (
+      <Grid size={6}>
+        <h3 className='hero-title'>{project.name}</h3>
+        {project.toolkit.map((toolkit: string) => {
+          return (
+            <img className='toolkit-icon' src={"src/assets/" + toolkit.toLowerCase() + "-logo.png"} alt={toolkit} />
+          )
+        })}
+        <img className='project-icon' src={"src/assets/" + project.icon} alt={project.name} />
+        <p>{project.description}</p>
+        <a href={project.url} target="_blank">View Github Project</a>
+      </Grid>
+    )
+  })
   return (
     <div>
       <NavBar />
-      <h1>Projects</h1>
+      <h1 className='hero-title'>Projects</h1>
+      <Container>
+        <Grid container spacing={2}>
+          {section}
+        </Grid>
+      </Container>
       <footer className="footer">
         <Container>
           <Grid container spacing={2}>

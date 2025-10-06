@@ -43,6 +43,11 @@ header,
     margin: 1em 0.5em;
 }
 
+.toolkit-icon {
+  width: 3em;
+  margin: 1em 0.5em;
+}
+
 .hero-title {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
@@ -59,39 +64,19 @@ header,
   font-size: 1.2rem;
 }
 
-.categories {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.project-icon {
+  width: 100%;
+  height: 40%;
+  margin: auto;
 }
 
 .section-title {
   margin-bottom: 1rem;
 }
 
-.cards {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  /* Centers the cards horizontally */
-  width: 100%;
-  /* Ensure cards take up full width */
-}
-
-.card {
-  padding: 1rem;
-  border-radius: 8px;
-  width: 250px;
-  min-width: 250px;
-  /* Prevents the cards from becoming too small */
-}
-
 .footer {
   color: white;
   text-align: center;
-  margin-top: 2rem;
   flex-shrink: 0;
   /* Prevents footer from shrinking */
   margin-top: auto;
