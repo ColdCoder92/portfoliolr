@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
-  "homepage": "https://coldcoder92.github.io/portfoliolr/",
+  "homepage": "/portfoliolr",
   "type": "module",
   "scripts": {
     "dev": "vite",
