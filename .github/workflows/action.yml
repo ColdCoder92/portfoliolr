@@ -33,10 +33,16 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v5
         with:
-          node-version: 22.x
+          node-version: '20'
           cache: 'npm'
       - name: Install dependencies
-        run: npm i
+        run: 
+          npm install; 
+          npm install reactjs-popup; 
+          npm install jwt-decode; 
+          npm install @mui/material @emotion/react @emotion/styled;
+          npm install --save-dev @swc/core @swc/jest;
+          npm fund;
       - name: Build
         run: npm run build
       - name: Setup Pages
