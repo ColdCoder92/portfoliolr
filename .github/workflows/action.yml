@@ -47,8 +47,8 @@ jobs:
           npm fund;
         working-directory: ./portfolio
         
-      - name: Build & Deploy to Output
-        run: npm run build; npm run deploy
+      - name: Build 
+        run: npm run build
         working-directory: ./portfolio
         
       - name: Setup Pages
@@ -57,7 +57,7 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           # Upload dist folder
-          path: './dist'
+          path: './portfolio/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
