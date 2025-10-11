@@ -13,7 +13,7 @@ function Projects() {
             <img className='toolkit-icon' src={"src/assets/" + toolkit.toLowerCase() + "-logo.png"} alt={toolkit} />
           )
         })}
-        <img className='project-icon' src={"src/assets/" + project.icon} alt={project.name} />
+        <img className='project-icon' src={"./portfoliolr/src/assets/" + project.icon} alt={project.name} />
         <p>{project.description}</p>
         <a href={project.url} target="_blank">View Github Project</a>
       </Grid>
