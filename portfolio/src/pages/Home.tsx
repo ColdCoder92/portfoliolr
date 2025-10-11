@@ -10,7 +10,7 @@ function Home() {
           <Container>
             <Grid container spacing={2}>
               <Grid size={6}>
-                <img width="100%" src="src/assets/selfie.jpg" alt="Selfie" className="selfie" />
+                <img width="100%" src="./src/assets/selfie.jpg" alt="Selfie" className="selfie" />
               </Grid>
               <Grid size={6}>
                 <h3>Lucas Rodriguez</h3>
@@ -58,13 +58,13 @@ function Home() {
                 </Grid>
                 <Grid size={6}>
                     <a href="https://www.linkedin.com/in/lucas-rodriguez-coder/" target="_blank">
-                        <img className="logo" src="src/assets/linkedinBlackLogo.png" alt="LinkedIn Icon" />
+                        <img className="logo" src="./src/assets/linkedinBlackLogo.png" alt="LinkedIn Icon" />
                     </a>
                     <a href="https://github.com/ColdCoder92" target="_blank">
-                        <img className="logo" src="src//assets/githubBlackLogo.png" alt="GitHub Icon" />
+                        <img className="logo" src="./src/assets/githubBlackLogo.png" alt="GitHub Icon" />
                     </a>
                     <a href="mailto:lucasrodriguez1002@proton.me">
-                        <img className="logo" src="src/assets/emailBlackLogo.png" alt="Email Icon" />
+                        <img className="logo" src="./src/assets/emailBlackLogo.png" alt="Email Icon" />
                     </a>
                 </Grid>
               </Grid>
