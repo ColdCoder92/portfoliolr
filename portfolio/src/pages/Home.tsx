@@ -2,10 +2,10 @@ import '../App.css'
 import NavBar from './shared/NavBar'
 import { Container, Grid } from '@mui/material'
 // Import Some Images from Assets
-import './assets/linkedinBlackLogo.png'
-import './assets/githubBlackLogo.png'
-import './assets/emailBlackLogo.png'
-import './assets/selfie.jpg'
+import linkedinLogo from 'src/assets/linkedinBlackLogo.png'
+import githubLogo from 'src/assets/githubBlackLogo.png'
+import emailLogo from 'src/assets/emailBlackLogo.png'
+import selfie from 'src/assets/selfie.jpg'
 
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
           <Container>
             <Grid container spacing={2}>
               <Grid size={6}>
-                <img width="100%" src="./assets/selfie.jpg" alt="Selfie" className="selfie" />
+                <img width="100%" src={selfie} alt="Selfie" className="selfie" />
               </Grid>
               <Grid size={6}>
                 <h3>Lucas Rodriguez</h3>
@@ -64,13 +64,13 @@ function Home() {
                 </Grid>
                 <Grid size={6}>
                     <a href="https://www.linkedin.com/in/lucas-rodriguez-coder/" target="_blank">
-                        <img className="logo" src="./assets/linkedinBlackLogo.png" alt="LinkedIn Icon" />
+                        <img className="logo" src={linkedinLogo} alt="LinkedIn Icon" />
                     </a>
                     <a href="https://github.com/ColdCoder92" target="_blank">
-                        <img className="logo" src="./assets/githubBlackLogo.png" alt="GitHub Icon" />
+                        <img className="logo" src={githubLogo} alt="GitHub Icon" />
                     </a>
                     <a href="mailto:lucasrodriguez1002@proton.me">
-                        <img className="logo" src="./assets/emailBlackLogo.png" alt="Email Icon" />
+                        <img className="logo" src={emailLogo} alt="Email Icon" />
                     </a>
                 </Grid>
               </Grid>
