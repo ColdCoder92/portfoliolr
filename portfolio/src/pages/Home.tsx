@@ -1,6 +1,12 @@
 import '../App.css'
 import NavBar from './shared/NavBar'
 import { Container, Grid } from '@mui/material'
+// Import Some Images from Assets
+import './assets/linkedinBlackLogo.png'
+import './assets/githubBlackLogo.png'
+import './assets/emailBlackLogo.png'
+import './assets/selfie.jpg'
+
 
 function Home() {
   return (
