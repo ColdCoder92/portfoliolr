@@ -10,10 +10,10 @@ function Projects() {
         <h3 className='hero-title'>{project.name}</h3>
         {project.toolkit.map((toolkit: string) => {
           return (
-            <img className='toolkit-icon' src={`assets/${toolkit.toLowerCase()}-logo.png`} alt={toolkit} />
+            <img className='toolkit-icon' src={`./assets/${toolkit.toLowerCase()}-logo.png`} alt={toolkit} />
           )
         })}
-        <img className='project-icon' src={`assets/${project.icon}`} alt={project.name} />
+        <img className='project-icon' src={`./assets/${project.icon}`} alt={project.name} />
         <p>{project.description}</p>
         <a href={project.url} target="_blank">View Github Project</a>
       </Grid>
@@ -36,13 +36,13 @@ function Projects() {
             </Grid>
             <Grid size={6}>
                 <a href="https://www.linkedin.com/in/lucas-rodriguez-coder/" target="_blank">
-                    <img className="logo" src="assets/linkedinBlackLogo.png" alt="LinkedIn Icon" />
+                    <img className="logo" src="./assets/linkedinBlackLogo.png" alt="LinkedIn Icon" />
                 </a>
                 <a href="https://github.com/ColdCoder92" target="_blank">
-                    <img className="logo" src="assets/githubBlackLogo.png" alt="GitHub Icon" />
+                    <img className="logo" src="./assets/githubBlackLogo.png" alt="GitHub Icon" />
                 </a>
                 <a href="mailto:lucasrodriguez1002@proton.me">
-                    <img className="logo" src="assets/emailBlackLogo.png" alt="Email Icon" />
+                    <img className="logo" src="./assets/emailBlackLogo.png" alt="Email Icon" />
                 </a>
             </Grid>
           </Grid>
