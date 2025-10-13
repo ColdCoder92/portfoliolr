@@ -37,10 +37,10 @@ function Projects() {
         <h3 className='hero-title'>{project.name}</h3>
         {project.toolkit.map((toolkit: string) => {
           return (
-            <img className='toolkit-icon' src={`../assets/${toolkit.toLowerCase()}-logo.png`} alt={toolkit} />
+            <img className='toolkit-icon' src={`../assets/${toolkit.toLowerCase()}-logo\*.png`} alt={toolkit} />
           )
         })}
-        <img className='project-icon' src={`../assets/${project.icon}`} alt={project.name} />
+        <img className='project-icon' src={`../assets/${project.icon}\*.png`} alt={project.name} />
         <p>{project.description}</p>
         <a href={project.url} target="_blank">View Github Project</a>
       </Grid>
