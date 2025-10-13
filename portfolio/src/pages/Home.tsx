@@ -2,10 +2,10 @@ import '../App.css'
 import NavBar from './shared/NavBar'
 import { Container, Grid } from '@mui/material'
 // Import Some Images from Assets
-import linkedinLogo from '../assets/linkedinBlackLogo.png'
-import githubLogo from '../assets/githubBlackLogo.png'
-import emailLogo from '../assets/emailBlackLogo.png'
-import selfie from '../assets/selfie.jpg'
+import linkedinLogo from '../../public/assets/linkedinBlackLogo.png'
+import githubLogo from '../../public/assets/githubBlackLogo.png'
+import emailLogo from '../../public/assets/emailBlackLogo.png'
+import selfie from '../../public/assets/selfie.jpg'
 
 
 function Home() {
