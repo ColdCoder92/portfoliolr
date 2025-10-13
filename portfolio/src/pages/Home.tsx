@@ -1,3 +1,4 @@
+import React from 'react'
 import '../App.css'
 import NavBar from './shared/NavBar'
 import { Container, Grid } from '@mui/material'

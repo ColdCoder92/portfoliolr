@@ -1,4 +1,4 @@
-import { type ReactNode } from 'react'
+import React, { type ReactNode } from 'react'
 import projects from '../../projects.json'
 import NavBar from './shared/NavBar'
 import { Container, Grid } from '@mui/material'

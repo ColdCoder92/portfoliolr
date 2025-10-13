@@ -1,3 +1,4 @@
+import React from "react";
 import logo from "../../assets/IceCreamLogo.png";
 import { Link } from "react-router-dom";
 import { AppBar, Container, Toolbar, Box, Button, IconButton, Typography } from "@mui/material";
